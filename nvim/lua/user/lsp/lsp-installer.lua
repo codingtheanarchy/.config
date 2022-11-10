@@ -5,6 +5,7 @@ end
 
 local servers = {
   "denols",
+  "dockerls",
   "sumneko_lua",
   "cssls",
   "emmet_ls",
