@@ -1,4 +1,5 @@
 local servers = {
+  "dockerls",
   "rust_analyzer",
 	"sumneko_lua",
 	"cssls",

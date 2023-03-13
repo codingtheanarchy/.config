@@ -71,6 +71,9 @@ local function lsp_keymaps(bufnr)
 end
 
 M.on_attach = function(client, bufnr)
+  if client.name == "dockerls" then
+    client.server_capabilities.document_formatting = false
+  end
   if client.name == "denols" then
     client.server_capabilities.document_formatting = false
   end
